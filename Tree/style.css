@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+}
+
+.createChild {
+    background-color: grey;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.closeIt {
+    background-color: grey;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.click {
+    background-color: grey;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.nested {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.caret {
+    position: relative;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.haveChild:before {
+    content: '\25B8';
+    display: inline-block;
+    font-size: 17px;
+}
+
